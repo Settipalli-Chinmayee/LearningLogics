@@ -8,7 +8,7 @@ do {
     char += "*";
     j++;
   } while (j <= 2 * i - 1);
-  console.log(char);
+  console.log("character pattern",char);
 
   i--;
 } while (i > 0);
